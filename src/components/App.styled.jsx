@@ -1,12 +1,10 @@
 import styled from '@emotion/styled';
 
-export const Container = styled.div`
+export const FeedbackWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 40;
-  color: #010101;
-  background-color: #cad6e4;
-  padding: 32px;
+  background-color: #dbeaff;
+  padding: 48px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.2);
 `;
